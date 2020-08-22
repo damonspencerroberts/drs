@@ -1,3 +1,7 @@
+a:hover {
+    text-decoration: none !important;
+}
+
 .color-nav {
     font-size: 1.25rem;
     letter-spacing: 2px;
@@ -11,3 +15,46 @@
 .nav-link:hover {
     color: #2d0057 !important;
 }
+
+
+.card-img-top {
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    height: 150px;
+    width: 200px;
+}
+
+/***************************** Card ****************************/
+.card {
+    border-radius: 25px !important;
+    width: 250px !important;
+    background-color: rgb(230, 230, 230) !important;
+    border: 1px !important;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+    transition: transform .35s;
+    text-decoration: none !important;
+    margin: 0 auto;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    background-color: #e86412 !important;
+   
+    
+}
+
+.card-title {
+    font-weight: 600 !important;
+    color: #2d0057 !important;
+}
+
+.card:hover .card-title {
+     color: white !important;
+}
+.headcards {
+    padding: 8%;
+    text-align: center;
+}
+

@@ -10,8 +10,8 @@ const HeaderDiv = styled.div`
 const H1Style = styled.h1`
     font-size: 5rem !important;
     letter-spacing: 4px;
-    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.603);
-    font-weight: 600 !important;
+    text-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+    font-weight: 550 !important;
 `;
 
 export {HeaderDiv, H1Style}

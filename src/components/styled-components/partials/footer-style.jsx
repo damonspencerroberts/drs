@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Footer = styled.footer`
     margin-top: 0;
-    padding-top: 2%;
+    padding: 3%;
     text-align: center;
 `;
 
@@ -16,6 +16,7 @@ const FBI = (color, cl) => {
     &:hover {
     color: ${color};
     transform: scale(1.6);
+    cursor: pointer;
     }
     `;
 

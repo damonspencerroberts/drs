@@ -8,9 +8,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: -webkit-linear-gradient(45deg, #e0e0e0b2 50%, #e86412 50%);
   min-height: 800px;
+  
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  font-family: 'Questrial', sans-serif;
 }

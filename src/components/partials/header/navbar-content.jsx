@@ -2,6 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import Drslogo from "../../styled-components/header/headlogo";
 import _ from "lodash";
 
 const navbar = () => 
@@ -10,15 +11,20 @@ const navbar = () =>
     <img
         alt="drsicon"
         src="https://drs-signup-page.herokuapp.com/images/drsicon.png"
-        width="30"
-        height="30"
+        width="40"
+        height="40"
         className="d-inline-block align-top"
         />{' '}
-        DRS
-        </Navbar.Brand>
-    <Nav className="ml-auto">
-        <Nav.Link href={"/" + _.lowerCase("education")}>Education</Nav.Link>
-        <Nav.Link href={"/" + _.lowerCase("contact")}>Contact</Nav.Link>
+        <Drslogo>
+            DRS
+        </Drslogo>
+</Navbar.Brand>
+<Nav className="ml-auto">
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+            <Nav.Link href={"/" + _.lowerCase("education")}>Education</Nav.Link>
+            <Nav.Link href={"/" + _.lowerCase("contact")}>Contact</Nav.Link>
+        </Navbar.Collapse>
     </Nav>
   </Navbar>
 
