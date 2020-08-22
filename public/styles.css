@@ -1,0 +1,13 @@
+.color-nav {
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    color: #fcfcfc !important;
+    font-weight:600 !important;
+}
+
+.nav-link:hover {
+    color: #2d0057 !important;
+}
