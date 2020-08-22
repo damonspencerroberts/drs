@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../partials/header/navbar-content";
 import Footer from "../../partials/footer/footer";
-import {HeaderDiv, H1Style} from "../../styled-components/header/header";
+import {HeaderDiv, H1Style} from "../../styled-components/pages/header/headerst";
 import CertifCards from "../../created-functions/cards/multi-certs";
 import { IntroDiv, IntroP } from "../../styled-components/pages/home-page/head-page";
 import { EdDiv, EdTable } from "../../styled-components/pages/educ/educ-table";
