@@ -10,7 +10,7 @@ const IntroDiv = styled.div`
 const IntroP = styled.p`
     font-size: 1.2rem !important;
     letter-spacing: 3px;
-    text-shadow: 0 20px 50px rgb(0, 0, 0);
+    text-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
     font-weight: 550 !important;
     `;
 

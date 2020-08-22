@@ -6,8 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: -webkit-linear-gradient(45deg, #e0e0e0b2 50%, #e86412 50%);
-  min-height: 800px;
+  background-image: -webkit-linear-gradient(left, transparent -15%, #e86412 100%, transparent 100%);
   
 }
 * {

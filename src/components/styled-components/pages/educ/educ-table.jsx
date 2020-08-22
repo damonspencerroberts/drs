@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const EdDiv = styled.div`
-    padding: 10% 10% 5% 10%;
+    padding: 5% 10% 8% 10%;
     text-align: center;
     color: #2d0057 !important;
 `;

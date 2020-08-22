@@ -22,6 +22,7 @@ const navbar = () =>
 <Nav className="ml-auto">
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
+            <Nav.Link href="/"><i class="fas fa-home"></i></Nav.Link>
             <Nav.Link href={"/" + _.lowerCase("education")}>Education</Nav.Link>
             <Nav.Link href={"/" + _.lowerCase("contact")}>Contact</Nav.Link>
         </Navbar.Collapse>
