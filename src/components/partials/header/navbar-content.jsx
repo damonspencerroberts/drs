@@ -2,7 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import Drslogo from "../../styled-components/header/headlogo";
+import Drslogo from "../../styled-components/pages/header/headlogo";
 import _ from "lodash";
 
 const navbar = () => 

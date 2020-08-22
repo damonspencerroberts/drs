@@ -53,8 +53,13 @@ a:hover {
 .card:hover .card-title {
      color: white !important;
 }
-.headcards {
-    padding: 8%;
+
+.univ-div {
+    padding: 10% 10% 5% 10%;
     text-align: center;
+    color: #2d0057 !important;
 }
 
+.univ-div table {
+    margin: 0 auto;
+}

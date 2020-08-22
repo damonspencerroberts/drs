@@ -2,17 +2,20 @@ const headCards = [
     {
         key: 0,
         img: "https://static.toiimg.com/thumb/72975551.cms?width=680&height=512&imgsize=881753",
-        title: "Fiverr Freelance"
+        title: "Fiverr Freelance",
+        column: 4
     },
     {
         key: 1,
         img: "https://static.toiimg.com/thumb/72975551.cms?width=680&height=512&imgsize=881753",
-        title: "GitHub Account"
+        title: "GitHub Account",
+        column: 4
     },
     {
         key: 2,
         img: "https://static.toiimg.com/thumb/72975551.cms?width=680&height=512&imgsize=881753",
-        title: "LinkedIn Account"
+        title: "LinkedIn Account",
+        column: 4
     }
 ]
 

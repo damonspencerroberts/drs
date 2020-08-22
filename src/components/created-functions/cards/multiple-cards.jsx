@@ -7,7 +7,7 @@ import {Container, Row, Col} from "react-bootstrap";
 const threeCards = () => 
     <Container>
         <Row>
-            {headCards.map(e => <Col key = {e.key} md={4}><Card  title = {e.title} img = {e.img} /></Col>)} 
+            {headCards.map(e => <Col key = {e.key} md={e.column}><Card  title = {e.title} img = {e.img} /></Col>)} 
         </Row>
     </Container>
 

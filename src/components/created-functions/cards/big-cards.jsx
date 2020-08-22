@@ -4,7 +4,7 @@ import {Card} from "react-bootstrap";
 
 const card = (props) => 
   <a href = "/">
-    <Card>
+    <Card className = "cert-cards">
       <Card.Img className = "card-img-top" variant="top" src={props.img} alt = "test"/>
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
