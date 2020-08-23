@@ -47,7 +47,7 @@ export default class EmailTest extends Component {
 
   render() {
 	return (
-      <form className="test-mailing" autocomplete = "off">
+      <form className="test-mailing" autoComplete = "off">
         <EmailPromptDiv>
             {this.state.success === true ? <p style = {{color: "#2d0057"}}>Email Sent!</p> : null}
             <input 

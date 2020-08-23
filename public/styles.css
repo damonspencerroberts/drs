@@ -2,6 +2,32 @@ a:hover {
     text-decoration: none !important;
 }
 
+.fIcons {
+    padding: 15px;
+    transition: transform .35s;
+    color: #2d0057;
+}
+.fa-envelope:hover {
+    color: red;
+    transform: scale(1.6);
+}
+
+.fa-twitter:hover {
+    color: rgb(47, 170, 241);
+    transform: scale(1.6);
+}
+
+.fa-linkedin-in:hover {
+    color: rgb(49, 57, 255);
+    transform: scale(1.6);
+}
+
+.fa-github:hover {
+    color: #17f702;
+    transform: scale(1.6);
+}
+
+
 .color-nav {
     font-size: 1rem;
     letter-spacing: 2px;
@@ -35,7 +61,7 @@ a:hover {
     background-color: rgb(230, 230, 230) !important;
     border: 1px !important;
     box-sizing: border-box;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
     transition: transform .35s;
     text-decoration: none !important;
     margin: 0 auto;
@@ -63,7 +89,7 @@ a:hover {
     border: 1px !important;
     box-sizing: border-box;
     width: 250px !important;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
     transition: transform .35s;
     margin: 0 auto;
 }

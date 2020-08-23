@@ -7,15 +7,15 @@ import CardsStyle from "../../styled-components/pages/cards/head-cards";
 
 const HomeContent = (props) => 
     <Fragment>
-        <HeaderDiv>
-            <H1Style>{props.title}</H1Style>
-        </HeaderDiv>
-        <IntroDiv>
-            <IntroP>{props.intro}</IntroP>
-        </IntroDiv>
-        <CardsStyle>
-            <HeadCards />
-        </CardsStyle> 
+            <HeaderDiv>
+                <H1Style>{props.title}</H1Style>
+            </HeaderDiv>
+            <IntroDiv>
+                <IntroP>{props.intro}</IntroP>
+            </IntroDiv>
+            <CardsStyle>
+                <HeadCards />
+            </CardsStyle>
     </Fragment>
 
 export default HomeContent;

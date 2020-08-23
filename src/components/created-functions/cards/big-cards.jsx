@@ -5,7 +5,7 @@ import DivCards from "../../styled-components/pages/cards/cardsdiv";
 
 const card = (props) => 
 <DivCards>
-  <a href = "/">
+  <a href = {props.link}>
     <Card className = "home-cards">
       <Card.Img className = "home-card-img-top" variant="top" src={props.img} alt = "test"/>
       <Card.Body>

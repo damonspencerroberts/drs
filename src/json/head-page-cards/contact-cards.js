@@ -1,32 +1,43 @@
+import fWeb from "../../components/img/fiverrweb.png";
+import link from "../../components/img/link.png";
+import git from "../../components/img/github.png";
+import fMath from "../../components/img/fiverrmath.png";
+import tw from "../../components/img/twitter.png";
+
 const contactCards = [
     {
         key: 0,
-        img: "https://static.toiimg.com/thumb/72975551.cms?width=680&height=512&imgsize=881753",
-        title: "Fiverr Freelance",
+        img: link,
+        url: "https://www.linkedin.com/in/damon-roberts1997/",
+        title: "LinkedIn",
         column: 4
     },
     {
         key: 1,
-        img: "https://static.toiimg.com/thumb/72975551.cms?width=680&height=512&imgsize=881753",
-        title: "GitHub Account",
+        img: tw,
+        title: "Twitter",
+        url: "https://twitter.com/damonwebdesign",
         column: 4
     },
     {
         key: 2,
-        img: "https://static.toiimg.com/thumb/72975551.cms?width=680&height=512&imgsize=881753",
-        title: "LinkedIn Account",
+        img: git,
+        url: "https://github.com/damonspencerroberts",
+        title: "Github",
         column: 4
     },
     {
         key: 3,
-        img: "https://static.toiimg.com/thumb/72975551.cms?width=680&height=512&imgsize=881753",
-        title: "LinkedIn Account",
+        img: fWeb,
+        title: "Fiverr Website",
+        url: "https://www.fiverr.com/share/zAYjx3",
         column: 4
     },
     {
         key: 4,
-        img: "https://static.toiimg.com/thumb/72975551.cms?width=680&height=512&imgsize=881753",
-        title: "LinkedIn Account",
+        img: fMath,
+        title: "Fiverr Math Tutor",
+        url: "https://www.fiverr.com/share/kXdRwQ",
         column: 4
     }
 
