@@ -1,19 +1,23 @@
+import fWeb from "../../components/img/fiverrweb.png";
+import link from "../../components/img/link.png";
+import git from "../../components/img/github.png";
+
 const headCards = [
     {
         key: 0,
-        img: "https://static.toiimg.com/thumb/72975551.cms?width=680&height=512&imgsize=881753",
+        img: fWeb,
         title: "Fiverr Freelance",
         column: 4
     },
     {
         key: 1,
-        img: "https://static.toiimg.com/thumb/72975551.cms?width=680&height=512&imgsize=881753",
+        img: link,
         title: "GitHub Account",
         column: 4
     },
     {
         key: 2,
-        img: "https://static.toiimg.com/thumb/72975551.cms?width=680&height=512&imgsize=881753",
+        img: git,
         title: "LinkedIn Account",
         column: 4
     }

@@ -1,7 +1,9 @@
+import _ from "lodash";
+
 const certCards = [
     {
         key: 0,
-        url: "/",
+        url: "/" + _.lowerCase("test"),
         img: "https://www.w3schools.com/w3css/img_lights.jpg",
         column: 4
     },
