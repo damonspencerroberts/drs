@@ -10,6 +10,7 @@ a:hover {
 .nav-link {
     color: #fcfcfc !important;
     font-weight:600 !important;
+    font-family: 'Roboto Slab', serif !important;
 }
 
 .nav-link:hover {
