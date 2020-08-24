@@ -16,9 +16,14 @@ const JmuA = styled.a`
 
     &:hover {
         text-decoration: none;
-        color: white;
+        color: #001aff;
     }
 `;
 
-export {H3Educ, SpanMajor, JmuA}
+const ProjTitle = styled.h6`
+    font-weight: 800 !important;
+    font-size: 1.3rem;
+`;
+
+export {H3Educ, SpanMajor, JmuA, ProjTitle}
 

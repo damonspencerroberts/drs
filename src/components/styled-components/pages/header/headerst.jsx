@@ -13,7 +13,7 @@ const H1Style = styled.h1`
     letter-spacing: 4px;
     text-shadow: 0 30px 50px rgba(0, 0, 0, 0.6);
     font-weight: 550 !important;
-    font-family: 'Roboto Slab', serif !important;
+    font-family: 'Nunito Sans', sans-serif;
 `;
 
 

@@ -29,11 +29,11 @@ export default class NavDrop extends Component {
         onMouseLeave = {this.changeHover}
         onToggle = {this.changeClicked}
         show= {this.state.Hovered || this.state.Clicked}
-        title="Social" 
+        title= {<span><i class="fas fa-user"></i> Social</span>}
         id="basic-nav-dropdown">
-            <NavDropdown.Item href="https://www.linkedin.com/in/damon-roberts1997/">LinkedIn</NavDropdown.Item>
-            <NavDropdown.Item href="https://github.com/damonspencerroberts">GitHub</NavDropdown.Item>
-            <NavDropdown.Item href="https://www.fiverr.com/share/zAYjx3">Fiverr Freelance</NavDropdown.Item>
+            <NavDropdown.Item href="https://www.linkedin.com/in/damon-roberts1997/"><i class="fab fa-linkedin"></i> LinkedIn</NavDropdown.Item>
+            <NavDropdown.Item href="https://github.com/damonspencerroberts"><i class="fab fa-github"></i> GitHub</NavDropdown.Item>
+            <NavDropdown.Item href="https://www.fiverr.com/share/zAYjx3"><i class="fas fa-code"></i> Fiverr Freelance</NavDropdown.Item>
       </NavDropdown>
         </Fragment>
     }

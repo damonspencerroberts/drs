@@ -8,7 +8,7 @@ const drslogo = styled.span`
     color: #5c646b !important;
 
     &:hover {
-        color: #cf0000 !important;
+        color: #001aff !important;
     }
 `;
 

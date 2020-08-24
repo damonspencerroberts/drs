@@ -1,7 +1,7 @@
 import React from "react";
 import {
     Footer
-} from "../../styled-components/partials/footer-style";
+} from "../../styled-components/pages/partials/footer-style";
 
 
 //Add linkes to these footers

@@ -6,7 +6,7 @@ import MailFoot from "../../created-functions/cards/mail-foot";
 const Education = () => 
     <div>
         <Header />
-            <EdContent />
+        <EdContent />
         <MailFoot />
     </div>
 

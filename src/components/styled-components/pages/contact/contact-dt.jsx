@@ -8,7 +8,7 @@ const CtDiv = styled.div`
     color: #4e5358;
     border-radius: 20px;
     border: 2px;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
 `;
 
 const EmailPromptDiv = styled.div`
@@ -18,7 +18,7 @@ const EmailPromptDiv = styled.div`
     color: #4e5358;
     border-radius: 20px;
     border: 2px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
     cursor: pointer;
 `;
     

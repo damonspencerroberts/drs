@@ -4,6 +4,7 @@ import CertifCards from "../../created-functions/cards/multi-certs";
 import { IntroDiv, IntroP } from "../../styled-components/pages/home-page/head-page";
 import CardsStyle from "../../styled-components/pages/cards/head-cards";
 import FinEduTable from "./ed-table";
+import Projects from "./projects";
 
 const EdContent = () => 
     <Fragment>
@@ -14,6 +15,7 @@ const EdContent = () =>
         <IntroDiv>
             <IntroP>After studying Economics and being exposed to programming, I became interested in Web Development. For the past 6 months, I have completed many online courses and focusing all my attention on Web Development.</IntroP>
         </IntroDiv>
+        <Projects/>
         <CardsStyle>
             <CertifCards />
         </CardsStyle>
