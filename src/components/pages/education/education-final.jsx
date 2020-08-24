@@ -1,13 +1,13 @@
 import React from "react";
 import Header from "../../partials/header/navbar-content";
-import Footer from "../../partials/footer/footer";
-import EdContent from "./ed-content";  
+import EdContent from "./ed-content"; 
+import MailFoot from "../../created-functions/cards/mail-foot"; 
 
 const Education = () => 
     <div>
         <Header />
             <EdContent />
-        <Footer />
+        <MailFoot />
     </div>
 
 
