@@ -10,35 +10,45 @@ const contactCards = [
         img: link,
         url: "https://www.linkedin.com/in/damon-roberts1997/",
         title: "LinkedIn",
-        column: 4
+        column: 4,
+        colsm: 6,
+        colxs: 12
     },
     {
         key: 1,
         img: tw,
         title: "Twitter",
         url: "https://twitter.com/damonwebdesign",
-        column: 4
+        column: 4,
+        colsm: 6,
+        colxs: 12
     },
     {
         key: 2,
         img: git,
         url: "https://github.com/damonspencerroberts",
         title: "Github",
-        column: 4
+        column: 4,
+        colsm: 6,
+        colxs: 12
     },
     {
         key: 3,
         img: fWeb,
         title: "Fiverr Website",
         url: "https://www.fiverr.com/share/zAYjx3",
-        column: 4
+        column: 4,
+        colsm: 6,
+        colxs: 12
     },
     {
         key: 4,
         img: fMath,
         title: "Fiverr Math Tutor",
         url: "https://www.fiverr.com/share/kXdRwQ",
-        column: 4
+        column: 4,
+        colsm: 6,
+        colxs: 12
     }
 
 ]

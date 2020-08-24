@@ -7,7 +7,7 @@ import {Container, Row, Col} from "react-bootstrap";
 const CertifCards = () => 
     <Container>
         <Row>
-            {certCards.map(e => <Col key = {e.key} md={e.column}><SmCard url = {e.url} img = {e.img} /></Col>)} 
+            {certCards.map(e => <Col key = {e.key} sm = {e.colxs} md = {e.colsm} lg ={e.column}><SmCard url = {e.url} img = {e.img} /></Col>)} 
         </Row>
     </Container>
 

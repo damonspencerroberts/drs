@@ -25,7 +25,7 @@ export default class ContactCards extends Component {
     render() {
         return <Container>
         <Row>
-            <Col className = "colt-dt" md ={4}>
+            <Col className = "colt-dt" sm = {12} md = {6} lg ={4}>
             {this.state.showEmail === false ? 
                 <CtDiv>
                     <CtP className = "email"><h6>Email</h6>damonspencerroberts@gmail.com</CtP>

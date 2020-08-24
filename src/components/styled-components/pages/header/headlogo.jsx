@@ -5,10 +5,10 @@ const drslogo = styled.span`
     top: 10px !important;
     left: 5px !important;
     font-weight: 600 !important;
-    color: #5c646b !important;
+    color: #3a3a3a !important;
 
     &:hover {
-        color: #001aff !important;
+        color: #3de014 !important;
     }
 `;
 

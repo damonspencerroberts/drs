@@ -5,7 +5,7 @@ a:hover {
 .fIcons {
     padding: 15px;
     transition: transform .35s;
-    color: #4e5358;
+    color: #3a3a3a;
 }
 .fenv:hover {
     color: red;
@@ -22,7 +22,7 @@ a:hover {
     transform: scale(1.6);
 }
 
-.fa-github:hover {
+.figt:hover {
     color: #17f702;
     transform: scale(1.6);
 }
@@ -34,14 +34,14 @@ a:hover {
 }
 
 .nav-link {
-    color: #4e5358 !important;
+    color: #3a3a3a !important;
     font-weight:600 !important;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif !important;
     text-shadow: 0 30px 50px rgba(0, 0, 0, 0.603) !important;
 }
 
 .nav-link:hover {
-    color: #001aff !important;
+    color: #3de014 !important;
 }
 
 .dropdown-menu {
@@ -55,14 +55,14 @@ a:hover {
 .dropdown-item {
     background-color: #b0fdc7 !important;
     border-radius: 20px !important;
-    color: #4e5358 !important;
+    color: #3a3a3a !important;
     font-weight:600 !important;
     font-size: 1rem;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif !important;
 }
 
 .dropdown-item:hover {
-    color: #001aff !important;
+    color: #3de014 !important;
 }
 
 .navbar-toggler,
@@ -100,13 +100,43 @@ a:hover {
     background-color: #b0fdc7 !important;
 }
 
+@media (max-width: 768px) {
+    .pro-pic-div{
+        padding: 25%;
+    }
+
+    .pro-pic {
+        width: 250px;
+    }
+
+    .pro-pic:hover {
+        transform: none !important;
+    }
+
+    .home-cards {
+        width: 190px !important;
+    }
+
+    .name-text {
+        width: 200px !important;
+    }
+
+    .feedback-text {
+        width: 200px !important;
+    }
+
+    .h3Educ {
+        font-size: 1.2rem;
+    }
+}
+
 .card-title {
     font-weight: 600 !important;
-    color: #4e5358 !important;
+    color: #3a3a3a!important;
 }
 
 .home-cards:hover .card-title {
-    color: #4e5358 !important;
+    color: #3a3a3a !important;
 }
 
 .cert-cards {
@@ -115,7 +145,7 @@ a:hover {
     border-radius: 20px !important;
     border: 1px !important;
     box-sizing: border-box;
-    width: 250px !important;
+    width: 200px !important;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
     transition: transform .35s;
     margin: 0 auto;
@@ -169,19 +199,7 @@ a:hover {
     text-align: center;
 }
 
-@media (max-width: 768px) {
-    .pro-pic-div{
-        padding: 15%;
-    }
 
-    .pro-pic {
-        width: 250px;
-    }
-
-    .pro-pic:hover {
-        transform: scale(1.2);
-    }
-}
 
 .pro-pic {
     width: 150px;
@@ -194,6 +212,14 @@ a:hover {
 .pro-pic:hover {
     transform: scale(1.7);
 }
+
+.h3Educ {
+    font-size: 1.8rem;
+    padding: 2%;
+} 
+    
+    
+    
 
 
 

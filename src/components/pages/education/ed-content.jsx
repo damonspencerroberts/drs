@@ -18,7 +18,7 @@ const EdContent = () =>
         </IntroDiv>
         <Projects/>
         <CardsStyle>
-        <H3Educ style ={{fontSize: "1.8rem"}}>Certificates</H3Educ>
+        <H3Educ className = "h3Educ" >Certificates</H3Educ>
             <CertifCards />
         </CardsStyle>
     </Fragment>

@@ -4,21 +4,29 @@ const IntroDiv = styled.div`
     text-align: center;
     padding: 5% 15%;
     line-height: 3rem;
-    color:#4e5358;
+    color:#3a3a3a;
+
+    @media (max-width: 768px) {
+        padding: 5% 0;
+      }
 `;
 
 const IntroP = styled.p`
     font-size: 1.2rem !important;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     text-shadow: 0 30px 50px rgba(0, 0, 0, 0.6);
     font-weight: 550 !important;
+
+    @media (max-width: 768px) {
+        font-size: 0.75rem !important;
+      }
     `;
 
 const BioDiv = styled.div`
     padding: 10% 10%;
     text-align: left;
     line-height: 3rem;
-    color: #4e5358;
+    color: #3a3a3a;
     box-shadow: 0 5px 10px rgba(0,0,0,0.6);
     border-radius: 20px;
     height: 400px;
@@ -36,10 +44,14 @@ const BioDiv = styled.div`
 `;
 
 const BioP = styled.p`
-    font-size: .9rem;
-    letter-spacing: 2.5px;
+    font-size: 1rem;
+    letter-spacing: 1px;
     text-shadow: 0 30px 50px rgba(0, 0, 0, 0.6);
     font-weight: 500 !important;
+
+    @media (max-width: 768px) {
+        font-size: 0.75rem !important;
+      }
 `;
 
 const BioBtnDiv = styled.div`

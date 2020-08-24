@@ -6,7 +6,7 @@ const EmailBtn = styled.a`
     border-radius:30px;
     display:inline-block;
     cursor:pointer;
-    color: #4e5358;
+    color: #3a3a3a;
     font-size:14px;
     font-weight: 500;
     padding:7px 12px;
@@ -19,7 +19,7 @@ const EmailBtn = styled.a`
         background:linear-gradient(to bottom, #4eff3d 5%, #68ff5a 100%);
         background-color:#4eff3d;
         transform: scale(1.05);
-        color: #4e5358;
+        color: #3a3a3a;
     }
 
     &:focus {
@@ -36,7 +36,7 @@ const EmailSend = styled.input`
     border-radius:30px;
     display:inline-block;
     cursor:pointer;
-    color: #4e5358;
+    color: #3a3a3a;
     font-size:14px;
     font-weight: 500;
     padding:7px 12px;
@@ -50,7 +50,7 @@ const EmailSend = styled.input`
         background:linear-gradient(to bottom, #4eff3d 5%, #68ff5a 100%);
         background-color:#4eff3d;
         transform: scale(1.05);
-        color: #4e5358;
+        color: #3a3a3a;
     }
 
     &:focus {

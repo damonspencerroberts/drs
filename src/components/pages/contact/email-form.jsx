@@ -11,7 +11,7 @@ export default class EmailTest extends Component {
         email: '',
         success: false
     };
-	this.handleFeedbackChange = this.handleFeedbackChange.bind(this);
+	  this.handleFeedbackChange = this.handleFeedbackChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleEmailChange = this.handleEmailChange.bind(this);
     this.handleNameChange = this.handleNameChange.bind(this);
