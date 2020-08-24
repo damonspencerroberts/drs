@@ -3,6 +3,7 @@ import styled from "styled-components";
 const H3Educ = styled.h3`
     font-size: 2.2rem;
     text-shadow: 0 30px 50px rgba(0, 0, 0, 0.6);
+    color: #4e5358;
 `;
 
 const SpanMajor = styled.span`

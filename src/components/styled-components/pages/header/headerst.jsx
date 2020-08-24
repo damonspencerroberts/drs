@@ -10,10 +10,14 @@ const HeaderDiv = styled.div`
     
 const H1Style = styled.h1`
     font-size: 6rem !important;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     text-shadow: 0 30px 50px rgba(0, 0, 0, 0.6);
     font-weight: 550 !important;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+
+    @media (max-width: 768px) {
+        font-size: 4rem !important;
+    }
 `;
 
 

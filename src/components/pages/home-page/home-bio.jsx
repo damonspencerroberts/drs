@@ -19,7 +19,7 @@ export default class Bio extends Component {
     render() {
         return <Fragment>
             <BioBtnDiv>
-                <EmailBtn onClick = {this.updateBio} style = {{fontSize: "1.2rem"}}>Biography</EmailBtn>
+                <EmailBtn onClick = {this.updateBio} style = {{fontSize: "1.4rem", marginLeft: "0"}}>Biography</EmailBtn>
             </BioBtnDiv>
             {this.state.showBio === true ? <BioContent /> : null}
         </Fragment>

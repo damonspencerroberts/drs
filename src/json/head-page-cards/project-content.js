@@ -2,7 +2,7 @@ const projects = [
     {
         key: 0,
         title: "This.project (pun intended)",
-        content: "I designed this website using React, React-Bootstrap, and Styling component. I wanted a website that could showcase my talents and be user friendly."
+        content: "I designed this website using React, React-Bootstrap, and Styling components. I wanted a website that could showcase my talents and be user friendly."
     },
     {
         key: 0,

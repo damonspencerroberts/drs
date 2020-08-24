@@ -19,7 +19,7 @@ export default class project extends Component {
     render() {
         return <Fragment>
             <BioBtnDiv>
-                <EmailBtn onClick = {this.updateProject} style = {{fontSize: "1.2rem"}}>Projects</EmailBtn>
+                <EmailBtn onClick = {this.updateProject} style = {{fontSize: "1.4rem", marginLeft: "0"}}>Projects</EmailBtn>
             </BioBtnDiv>
             {this.state.showProj === true ? <ProjectContent /> : null}
         </Fragment>

@@ -49,7 +49,7 @@ export default class EmailTest extends Component {
 	return (
       <form className="test-mailing" autoComplete = "off">
         <EmailPromptDiv>
-            {this.state.success === true ? <p style = {{color: "#2d0057"}}>Email Sent!</p> : null}
+            {this.state.success === true ? <p style = {{color: "red"}}>Email Sent!</p> : null}
             <input 
                 className = "name-text"
                 type = "text"
@@ -80,7 +80,7 @@ export default class EmailTest extends Component {
                 value={this.state.feedback}
             />
             <EmailBtn onClick = {this.props.backClick}>Back</EmailBtn>
-            <EmailSend type="button" value="Submit" className="btn btn--submit" onClick={this.handleSubmit} />
+            <EmailSend type="button" value="Send" className="btn btn--submit" onClick={this.handleSubmit} />
     	</EmailPromptDiv>
   	</form>
 	)

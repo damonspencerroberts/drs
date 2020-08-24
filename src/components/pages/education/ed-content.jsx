@@ -5,6 +5,7 @@ import { IntroDiv, IntroP } from "../../styled-components/pages/home-page/head-p
 import CardsStyle from "../../styled-components/pages/cards/head-cards";
 import FinEduTable from "./ed-table";
 import Projects from "./projects";
+import {H3Educ} from "../../styled-components/pages/educ/educ-jmu";
 
 const EdContent = () => 
     <Fragment>
@@ -17,6 +18,7 @@ const EdContent = () =>
         </IntroDiv>
         <Projects/>
         <CardsStyle>
+        <H3Educ style ={{fontSize: "1.8rem"}}>Certificates</H3Educ>
             <CertifCards />
         </CardsStyle>
     </Fragment>

@@ -45,6 +45,10 @@ const BioP = styled.p`
 const BioBtnDiv = styled.div`
     padding: 3%;
     text-align: center;
+
+    @media (max-width: 768px) {
+        padding: 6%;
+      }
 `;
 
 export { IntroDiv, IntroP, BioDiv, BioP, BioBtnDiv };
