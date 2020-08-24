@@ -1,52 +1,52 @@
 import styled from "styled-components";
 
 const EmailBtn = styled.a`
-    background:linear-gradient(to bottom, #ed6111 5%, #ff8945 100%);
-    background-color:#ed6111;
+    background:linear-gradient(to bottom, #36b12a 5%, #4ff540 100%);
+    background-color:#36b12a;
     border-radius:42px;
     display:inline-block;
     cursor:pointer;
-    color:#ffffff;
+    color: #4e5358;
     font-size:13px;
     padding:7px 12px;
     text-decoration:none;
-    text-shadow:0px 1px 0px #e86412;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 
     &:hover {
-        background:linear-gradient(to bottom, #ff8945 5%, #ed6111 100%);
-        background-color:#ff8945;
-        color: #2d0057;
+        background:linear-gradient(to bottom, #267c1e 5%, #68ff5a 100%);
+        background-color:#18a70b;
+        color: #cf0000;
     }
 
     &:focus {
+        outline:none;
         position:relative;
-	    top:1px;
+        top:1px;
     }
+
 `;
 
 const EmailSend = styled.input`
-    background:linear-gradient(to bottom, #ed6111 5%, #ff8945 100%);
-    background-color:#ed6111;
+    background:linear-gradient(to bottom, #36b12a 5%, #4ff540 100%);
+    background-color:#36b12a;
     border-radius:42px;
     display:inline-block;
     cursor:pointer;
-    color:#ffffff;
+    color: #4e5358;
     font-size:13px;
     padding:7px 12px;
     text-decoration:none;
-    text-shadow:0px 1px 0px #e86412;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     float: right;
 
     &:hover {
-        background:linear-gradient(to bottom, #ff8945 5%, #ed6111 100%);
-        background-color:#ff8945;
-        color: #2d0057;
+        background:linear-gradient(to bottom, #267c1e 5%, #68ff5a 100%);
+        background-color:#18a70b;
+        color: #cf0000;
     }
 
     &:focus {
-        outline: none;
+        outline:none;
         position:relative;
         top:1px;
     }
@@ -54,3 +54,5 @@ const EmailSend = styled.input`
 
 
 export {EmailBtn, EmailSend};
+
+

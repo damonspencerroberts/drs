@@ -13,9 +13,6 @@ const HomeContent = (props) =>
             <IntroDiv>
                 <IntroP>{props.intro}</IntroP>
             </IntroDiv>
-            <CardsStyle>
-                <HeadCards />
-            </CardsStyle>
     </Fragment>
 
 export default HomeContent;

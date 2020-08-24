@@ -4,15 +4,17 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Drslogo from "../../styled-components/pages/header/headlogo";
 import _ from "lodash";
+import NavDrop from "./nav-dropdown";
+import drsicon from "../../img/drsicon.png";
 
 const navbar = () => 
 <Navbar collapseOnSelect  expand="lg" className = "color-nav" variant = "light">
   <Navbar.Brand href="/">
     <img
         alt="drsicon"
-        src="https://drs-signup-page.herokuapp.com/images/drsicon.png"
-        width="40"
-        height="40"
+        src= {drsicon}
+        width="50"
+        height="50"
         className="d-inline-block align-top"
         />{' '}
         <Drslogo>
@@ -25,6 +27,7 @@ const navbar = () =>
             <Nav.Link href="/"><i className="fas fa-home"></i> Home</Nav.Link>
             <Nav.Link href={"/" + _.lowerCase("education")}><i className="fas fa-university"></i> Education</Nav.Link>
             <Nav.Link href={"/" + _.lowerCase("contact")}><i className="fas fa-envelope"></i> Contact</Nav.Link>
+            <NavDrop />
         </Navbar.Collapse>
     </Nav>
   </Navbar>

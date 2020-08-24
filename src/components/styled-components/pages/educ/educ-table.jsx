@@ -3,7 +3,7 @@ import styled from "styled-components";
 const EdDiv = styled.div`
     padding: 5% 10% 8% 10%;
     text-align: center;
-    color: #2d0057 !important;
+    color: #4e5358 !important;
 `;
     
 const EdTable = styled.table`
@@ -11,5 +11,7 @@ const EdTable = styled.table`
 `;
 
 export { EdDiv, EdTable};
+
+
     
 
