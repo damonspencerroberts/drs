@@ -1,8 +1,8 @@
 import React, {Fragment} from "react";
 import {HeaderDiv, H1Style} from "../../styled-components/pages/header/headerst";
-import HeadCards from "../../created-functions/cards/home-page-cards";
 import { IntroDiv, IntroP } from "../../styled-components/pages/home-page/head-page";
-import CardsStyle from "../../styled-components/pages/cards/head-cards";
+import ProPic from "./profile-pic";
+import Bio from "./home-bio";
 
 
 const HomeContent = (props) => 
@@ -10,9 +10,11 @@ const HomeContent = (props) =>
             <HeaderDiv>
                 <H1Style>{props.title}</H1Style>
             </HeaderDiv>
+            <ProPic />
             <IntroDiv>
                 <IntroP>{props.intro}</IntroP>
             </IntroDiv>
+            <Bio />
     </Fragment>
 
 export default HomeContent;

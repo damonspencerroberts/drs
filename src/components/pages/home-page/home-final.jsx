@@ -5,6 +5,7 @@ import HomeContent from "./home-contents";
 import headCont from "../../../json/head-page-cards/home-content";
 import EmailPrompt from "../../pages/contact/email-form";
 
+
 export default class Head extends Component {
     constructor(props){
         super(props)

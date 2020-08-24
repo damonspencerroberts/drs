@@ -49,8 +49,7 @@ const EmailSend = styled.input`
         outline:none;
         position:relative;
         top:1px;
-    }
-    `;
+    }`;
 
 
 export {EmailBtn, EmailSend};

@@ -14,5 +14,26 @@ const IntroP = styled.p`
     font-weight: 550 !important;
     `;
 
-export { IntroDiv, IntroP };
+const BioDiv = styled.div`
+    padding: 10% 10%;
+    text-align: left;
+    line-height: 3rem;
+    color: #4e5358;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.6);
+    border-radius: 20px;
+`;
+
+const BioP = styled.p`
+    font-size: .9rem;
+    letter-spacing: 2.5px;
+    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+    font-weight: 500 !important;
+`;
+
+const BioBtnDiv = styled.div`
+    padding: 3%;
+    text-align: center;
+`;
+
+export { IntroDiv, IntroP, BioDiv, BioP, BioBtnDiv };
 
