@@ -6,7 +6,7 @@ import tw from "../../components/img/twitter.png";
 
 const contactCards = [
     {
-        key: 0,
+        key: 37378383837,
         img: link,
         url: "https://www.linkedin.com/in/damon-roberts1997/",
         title: "LinkedIn",
@@ -15,7 +15,7 @@ const contactCards = [
         colxs: 12
     },
     {
-        key: 1,
+        key: 282889218,
         img: tw,
         title: "Twitter",
         url: "https://twitter.com/damonwebdesign",
@@ -24,7 +24,7 @@ const contactCards = [
         colxs: 12
     },
     {
-        key: 2,
+        key: 2929281783,
         img: git,
         url: "https://github.com/damonspencerroberts",
         title: "Github",
@@ -33,7 +33,7 @@ const contactCards = [
         colxs: 12
     },
     {
-        key: 3,
+        key: 33938382777,
         img: fWeb,
         title: "Fiverr Website",
         url: "https://www.fiverr.com/share/zAYjx3",
@@ -42,7 +42,7 @@ const contactCards = [
         colxs: 12
     },
     {
-        key: 4,
+        key: 382738373747,
         img: fMath,
         title: "Fiverr Math Tutor",
         url: "https://www.fiverr.com/share/kXdRwQ",

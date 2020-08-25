@@ -14,7 +14,6 @@ const IntroDiv = styled.div`
 const IntroP = styled.p`
     font-size: 1.2rem !important;
     letter-spacing: 1px;
-    text-shadow: 0 30px 50px rgba(0, 0, 0, 0.6);
     font-weight: 550 !important;
 
     @media (max-width: 768px) {
@@ -46,7 +45,6 @@ const BioDiv = styled.div`
 const BioP = styled.p`
     font-size: 1rem;
     letter-spacing: 1px;
-    text-shadow: 0 30px 50px rgba(0, 0, 0, 0.6);
     font-weight: 500 !important;
 
     @media (max-width: 768px) {

@@ -11,9 +11,8 @@ const HeaderDiv = styled.div`
 const H1Style = styled.h1`
     font-size: 6rem !important;
     letter-spacing: 2px;
-    text-shadow: 0 30px 50px rgba(0, 0, 0, 0.6);
     font-weight: 550 !important;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Karla', sans-serif;
 
     @media (max-width: 768px) {
         font-size: 3rem !important;

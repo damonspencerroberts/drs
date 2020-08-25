@@ -1,12 +1,12 @@
 body {
   margin: 0;
   padding: 2% 10% 0% 10%;
-  background-image: -webkit-linear-gradient(bottom, transparent -20%, #b0fdc7 100%, transparent 100%);
+  background-image: -webkit-linear-gradient(bottom, transparent -20%, #d0ffde 100%, transparent 100%);
 
   
 }
 * {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Karla', sans-serif;
 }
 
 
