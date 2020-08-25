@@ -13,7 +13,7 @@ const CtDiv = styled.div`
 
 const EmailPromptDiv = styled.div`
     margin-top: 5%;
-    padding: 5% 5% 5% 1%;
+    padding: 5% 5% 5% 2%;
     text-align: left;
     color: #3a3a3a;
     border-radius: 20px;
@@ -23,10 +23,21 @@ const EmailPromptDiv = styled.div`
 `;
     
 const CtP = styled.p`
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 600;
     letter-spacing: 1px;
-    padding: 2% 2% 4% 1%;
+    padding: 2% 2% 4% 0%;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+        width: 3px !important;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5); 
+        height: 10px;
+    }
 
     @media (max-width: 768px) {
         font-size: 0.6rem;
