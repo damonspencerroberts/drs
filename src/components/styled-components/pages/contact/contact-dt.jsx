@@ -13,7 +13,7 @@ const CtDiv = styled.div`
 
 const EmailPromptDiv = styled.div`
     margin-top: 5%;
-    padding: 5% 5% 5% 2%;
+    padding: 5% 5% 5% 1%;
     text-align: left;
     color: #3a3a3a;
     border-radius: 20px;
@@ -26,10 +26,10 @@ const CtP = styled.p`
     font-size: 1rem;
     font-weight: 600;
     letter-spacing: 1px;
-    padding: 2% 2% 4% 2%;
+    padding: 2% 2% 4% 1%;
 
     @media (max-width: 768px) {
-        font-size: 0.65rem;
+        font-size: 0.6rem;
       }
 `;
 
