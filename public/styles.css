@@ -222,8 +222,8 @@ a:hover {
 /*************************
 Social Buttons ************************************************/
     svg {
-        height: 18px;
-        width: 18px;
+        height: 24px;
+        width: 24px;
     }
   .social-share-btn {
     display: block;
@@ -231,7 +231,7 @@ Social Buttons ************************************************/
     text-align: center;
     padding: 2px;
     position: fixed;
-    left: 0px;
+    left: 5px;
   }
   .share-btn {
     color: #3a3a3a;

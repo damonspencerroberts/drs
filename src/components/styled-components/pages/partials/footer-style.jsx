@@ -10,4 +10,9 @@ const Footer = styled.footer`
       }
 `;
 
-export {Footer};
+const CrFoot = styled.div`
+      padding: 2%;
+      font-size: 0.6rem;
+`;
+
+export {Footer, CrFoot};
