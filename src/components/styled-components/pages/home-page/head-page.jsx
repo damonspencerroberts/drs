@@ -27,7 +27,7 @@ const BioDiv = styled.div`
     line-height: 3rem;
     color: #3a3a3a;
     box-shadow: 0 5px 10px rgba(0,0,0,0.6);
-    border-radius: 20px;
+    border-radius: 15px;
     height: 400px;
     overflow: auto;
     

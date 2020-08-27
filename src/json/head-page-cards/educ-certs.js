@@ -3,6 +3,7 @@ import jpm from "../../components/img/jpm.png";
 import mysql from "../../components/img/mysql.png";
 import pyth from "../../components/img/pyth.png";
 import js from "../../components/img/jscourse.png";
+import wpc from "../../components/img/wpc.png";
 
 
 const certCards = [
@@ -48,8 +49,8 @@ const certCards = [
     },
     {
         key: 554323454543,
-        url: "/",
-        img: "https://www.w3schools.com/w3css/img_lights.jpg",
+        url: "https://www.udemy.com/certificate/UC-6ef2475f-84a2-484f-9df9-49d6b33aa54d/",
+        img: wpc,
         column: 4,
         colsm: 6,
         colxs: 12

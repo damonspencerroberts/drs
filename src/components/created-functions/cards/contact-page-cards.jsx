@@ -28,8 +28,10 @@ export default class ContactCards extends Component {
             <Col className = "colt-dt" sm = {12} md = {6} lg ={4}>
             {this.state.showEmail === false ? 
                 <CtDiv>
-                    <CtP className = "email"><h6>Email</h6>damonspencerroberts@gmail.com</CtP>
-                    <CtP className = "email"><h6>Phone</h6>+1 (540) 746-2375</CtP>
+                    <div><h6>Email</h6></div>
+                    <CtP className = "email">damonspencerroberts@gmail.com</CtP>
+                    <div><h6>Phone</h6></div>
+                    <CtP className = "email">+1 (540) 746-2375</CtP>
                     <EmailBtn onClick = {this.handleEmailPrompt}>Email Me</EmailBtn>
                 </CtDiv> : <EmailPrompt backClick = {this.handleEmailPrompt}/> } 
             </Col>

@@ -3,7 +3,7 @@ import styled from "styled-components";
 const EmailBtn = styled.a`
     background:linear-gradient(to bottom, #5bc976 5%, #50da3b 100%);
     background-color:#5bc976;
-    border-radius:28px;
+    border-radius:15px;
     display:inline-block;
     cursor:pointer;
     color: #3a3a3a;
@@ -29,7 +29,7 @@ const EmailBtn = styled.a`
 const EmailSend = styled.input`
     background:linear-gradient(to bottom, #5bc976 5%, #50da3b 100%);
     background-color:#5bc976;
-    border-radius:28px;
+    border-radius:15px;
     display:inline-block;
     cursor:pointer;
     color: #3a3a3a;

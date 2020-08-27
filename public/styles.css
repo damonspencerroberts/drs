@@ -45,7 +45,7 @@ a:hover {
 
 .dropdown-menu {
     background-color: #d0ffde !important;
-    border-radius: 20px !important;
+    border-radius: 15px !important;
     border: 2px !important;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
 
@@ -53,7 +53,7 @@ a:hover {
 
 .dropdown-item {
     background-color: #d0ffde !important;
-    border-radius: 20px !important;
+    border-radius: 15px !important;
     color: #3a3a3a !important;
     font-weight: 400 !important;
     font-size: 1.2rem;
@@ -63,6 +63,7 @@ a:hover {
 .dropdown-item:hover {
     color: #3de014 !important;
 }
+
 
 .navbar-toggler,
 .navbar-toggler:focus,
@@ -75,14 +76,14 @@ a:hover {
 
 /***************************** Card ****************************/
 .home-card-img-top {
-    border-top-left-radius: 20px !important;
-    border-top-right-radius: 20px !important;
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
     width: 200px;
     height: 105px;
 }
 
 .home-cards {
-    border-radius: 25px !important;
+    border-radius: 15px !important;
     width: 250px !important;
     background-color: rgb(255, 249, 249) !important;
     border: 1px !important;
@@ -127,6 +128,7 @@ a:hover {
     .h3Educ {
         font-size: 1.2rem;
     }
+
 }
 
 .card-title {
@@ -139,9 +141,9 @@ a:hover {
 }
 
 .cert-cards {
-    border-top-left-radius: 20px !important;
-    border-top-right-radius: 20px !important;
-    border-radius: 20px !important;
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+    border-radius: 15px !important;
     border: 1px !important;
     box-sizing: border-box;
     width: 200px !important;
@@ -156,9 +158,9 @@ a:hover {
 }
 
 .cert-card-img-top {
-    border-top-left-radius: 20px !important;
-    border-top-right-radius: 20px !important;
-    border-radius: 20px;
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+    border-radius: 15px;
     height: 150px;
     width: 200px;
     object-fit: cover;
@@ -167,7 +169,7 @@ a:hover {
 .name-text {
     width: 250px;
     display: block;
-    border-radius: 25px;
+    border-radius: 15px;
     border: 1px solid #d0ffde;
     padding-left: 10px;
     margin: 2% auto;
@@ -182,7 +184,7 @@ a:hover {
     width: 250px;
     height: 100px;
     display: block;
-    border-radius: 25px;
+    border-radius: 15px;
     border: 1px solid #d0ffde;
     padding-left: 10px;
     margin: 2% auto;
@@ -216,6 +218,57 @@ a:hover {
     font-size: 1.8rem;
     padding: 2%;
 } 
+
+/*************************
+Social Buttons ************************************************/
+    svg {
+        height: 18px;
+        width: 18px;
+    }
+  .social-share-btn {
+    display: block;
+    margin-right: 10px;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    left: 0px;
+  }
+  .share-btn {
+    color: #3a3a3a;
+    padding: 3px;
+  }
+  .share-btn:hover {
+      color: #17f702;
+      cursor: pointer;
+  }
+
+  .share {
+      top: 40%;
+  }
+  .twit {
+      top: 45%;
+  }
+  .face {
+      top: 50%;
+  }
+  .linked {
+      top: 55%;
+  }
+  .whats {
+      top: 60%;
+  }
+
+  .social-share-btn__share-button {
+    cursor: pointer;
+  }
+  
+  .social-share-btn__share-button:hover:not(:active) {
+    opacity: 0.75;
+  }
+  .social-share-btn__share-button:focus {outline: none;}
+
+  
+  
 
 
 
