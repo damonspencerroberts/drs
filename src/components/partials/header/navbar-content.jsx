@@ -12,8 +12,8 @@ const navbar = () =>
 			<img
 				alt="drsicon"
 				src= {drsicon}
-				width="80"
-				height="80"
+				width="70"
+				height="70"
 				className="d-inline-block align-top"
 				/>
 		</Navbar.Brand>
