@@ -26,7 +26,7 @@ export default class ProjContent extends Component {
             <BioDiv>
                 {projects.map(e => <EachProj key = {e.key} title = {e.title} content = {e.content} />)}
                 <BioP style = {{padding: "3%"}}>
-                    Each of my projects are present on GitHub for you to view. I am very open to constructive criticism and thrive at learning from my mistakes so please do not hesitate to <JmuA onClick = {this.updateEmail} style ={{textDecoration: "underline", cursor: "pointer"}}>email me</JmuA> with suggestions.
+                    Each of my projects are present on <a href = "https://github.com/damonspencerroberts" style ={{textDecoration: "underline", cursor: "pointer"}}>GitHub</a> for you to view. I am very open to constructive criticism and thrive at learning from my mistakes so please do not hesitate to <JmuA onClick = {this.updateEmail} style ={{textDecoration: "underline", cursor: "pointer"}}>email me</JmuA> with suggestions.
                 </BioP>
             </BioDiv>
                 {this.state.showEmail === true ? <PromDiv><EmailPrompt backClick = {this.updateEmail}/></PromDiv> : null}
