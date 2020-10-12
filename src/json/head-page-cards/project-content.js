@@ -15,8 +15,13 @@ const projects = [
     },
     {
         key: 3455232525250,
-        title:"Daily UI Challenge",
-        content: "100 Days of Creating user interfaces. (currently in progress)"
+        title:"Burger Builder Application",
+        content: "Currently creating a responsive Burger Builder application through my React course that I am currently taking on Udemy. The app is created using React with Google firebase as a database. (Currently in progress)"
+    },
+    {
+        key: 32897597022533,
+        title: "Survivor Top 100",
+        content: "As I am a fan of the reality tv show Survivor on CBS, I am creating a site to highlight the top 100 players to ever play the game. (Currently in progress)"
     }
 ];
 

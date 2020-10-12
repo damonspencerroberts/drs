@@ -22,7 +22,6 @@ export default class NavDrop extends Component {
     }
 
     render() {
-        console.log(this.state.Hovered);
         return <Fragment>
             <NavDropdown 
             onMouseEnter = {this.changeHover}

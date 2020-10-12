@@ -29,14 +29,24 @@ a:hover {
 
 
 .color-nav {
-    font-size: 1rem;
+    font-size: 1.2rem;
     letter-spacing: 2px;
 }
 
 .nav-link {
     color: #3a3a3a !important;
-    font-weight: 300 !important;
+    font-weight: 600 !important;
     font-family: 'Karla', sans-serif !important;
+    border: 2px solid #3a3a3a;
+    margin: 2px;
+    padding: 15px !important;
+    border-radius: 15px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.active-class {
+    background-color: #3a3a3a;
+    color: white !important;
 }
 
 .nav-link:hover {
@@ -55,8 +65,8 @@ a:hover {
     background-color: #d0ffde !important;
     border-radius: 15px !important;
     color: #3a3a3a !important;
-    font-weight: 400 !important;
-    font-size: 1rem;
+    font-weight: 500 !important;
+    font-size: 1.2rem;
     font-family: 'Karla', sans-serif !important;
 }
 
@@ -196,14 +206,14 @@ a:hover {
 }
 
 .pro-pic-div {
-    padding: 5% 10% 8% 10%;
+    padding: 5% 5% 8% 5%;
     text-align: center;
 }
 
 
 
 .pro-pic {
-    width: 150px;
+    width: 200px;
     border-radius: 100%;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
     transition: transform 1.5s;
@@ -211,7 +221,7 @@ a:hover {
 }
 
 .pro-pic:hover {
-    transform: scale(1.7);
+    transform: scale(1.4);
 }
 
 .h3Educ {
