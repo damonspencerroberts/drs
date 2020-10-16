@@ -22,6 +22,9 @@ export default class Bio extends Component {
                 <EmailBtn onClick = {this.updateBio} style = {{fontSize: "1.4rem", marginLeft: "0"}}>Biography</EmailBtn>
             </BioBtnDiv>
             {this.state.showBio === true ? <BioContent /> : null}
+            <BioBtnDiv>
+                <EmailBtn href = "https://damonroberts-portfolio.herokuapp.com/" style = {{fontSize: "1.4rem", marginLeft: "0"}} target = "_blank">Portfolio</EmailBtn>
+            </BioBtnDiv>
         </Fragment>
     }
 }
