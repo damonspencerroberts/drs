@@ -1,11 +1,9 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, {Component, Fragment} from "react";
-import {BioDiv, BioP} from "../../styled-components/pages/home-page/head-page";
 import EachProj from "./each-project";
 import projects from "../../../json/head-page-cards/project-content";
 import EmailPrompt from "../../pages/contact/email-form";
-import PromDiv from "../../styled-components/email-prompt";
-import {JmuA} from "../../styled-components/pages/educ/educ-jmu";
 
 export default class ProjContent extends Component {
     constructor() {
@@ -23,13 +21,13 @@ export default class ProjContent extends Component {
     
     render() {
         return <Fragment>
-            <BioDiv>
+            <div className = "bio-div">
                 {projects.map(e => <EachProj key = {e.key} title = {e.title} content = {e.content} />)}
-                <BioP style = {{padding: "3%"}}>
-                    Each of my projects are present on <JmuA href = "https://github.com/damonspencerroberts" style ={{textDecoration: "underline", cursor: "pointer"}} target="_blank">GitHub</JmuA> and my <JmuA href = "https://damonroberts-portfolio.herokuapp.com/" style ={{textDecoration: "underline", cursor: "pointer"}} target="_blank">portfolio website</JmuA> for you to view. I am very open to constructive criticism and thrive at learning from my mistakes so please do not hesitate to <JmuA onClick = {this.updateEmail} style ={{textDecoration: "underline", cursor: "pointer"}}>email me</JmuA> with suggestions.
-                </BioP>
-            </BioDiv>
-                {this.state.showEmail === true ? <PromDiv><EmailPrompt backClick = {this.updateEmail}/></PromDiv> : null}
+                <p className = "bio-p" style = {{padding: "3%"}}>
+                    Each of my projects are present on <a className="jmu-a" href = "https://github.com/damonspencerroberts" style ={{textDecoration: "underline", cursor: "pointer"}} target="_blank">GitHub</a> and my <a className="jmu-a" href = "https://damonroberts-portfolio.herokuapp.com/" style ={{textDecoration: "underline", cursor: "pointer"}} target="_blank">portfolio website</a> for you to view. I am very open to constructive criticism and thrive at learning from my mistakes so please do not hesitate to <a className="jmu-a" onClick = {this.updateEmail} style ={{textDecoration: "underline", cursor: "pointer"}}>email me</a> with suggestions.
+                </p>
+            </div>
+                {this.state.showEmail === true ? <div className="prom-div"><EmailPrompt backClick = {this.updateEmail}/></div> : null}
         </Fragment>
     }
     

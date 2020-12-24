@@ -2,10 +2,9 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import {Card} from "react-bootstrap";
-import DivCards from "../../styled-components/pages/cards/cardsdiv";
 
 const card = (props) => 
-<DivCards>
+<div className="div-cards">
   <a href = {props.link} target="_blank">
     <Card className = "home-cards">
       <Card.Img className = "home-card-img-top" variant="top" src={props.img} alt = "test"/>
@@ -14,6 +13,6 @@ const card = (props) =>
       </Card.Body>
     </Card>
   </a>
-</DivCards>
+</div>
 
 export default card;

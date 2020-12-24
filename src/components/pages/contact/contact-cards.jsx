@@ -1,10 +1,9 @@
 import React from "react";
 import ContactCards from "../../created-functions/cards/contact-page-cards";
-import CardsStyle from "../../styled-components/pages/cards/head-cards";
 
 const ContactBody = () => 
-    <CardsStyle>
+    <div className="card-style">
         <ContactCards />
-    </CardsStyle>
+    </div>
 
 export default ContactBody;

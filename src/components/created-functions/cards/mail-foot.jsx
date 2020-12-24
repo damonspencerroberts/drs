@@ -1,7 +1,6 @@
 import React, {Component, Fragment} from "react";
 import Footer from "../../partials/footer/footer";
 import EmailPrompt from "../../pages/contact/email-form";
-import PromDiv from "../../styled-components/email-prompt";
 
 export default class MailFoot extends Component {
     constructor(props){
@@ -18,7 +17,7 @@ export default class MailFoot extends Component {
 
     render() {
         return <Fragment>
-            {this.state.mailFoot === true ? <PromDiv><EmailPrompt backClick = {this.updateMailFoot} /></PromDiv> : null}
+            {this.state.mailFoot === true ? <div className="prom-div"><EmailPrompt backClick = {this.updateMailFoot} /></div> : null}
         <Footer mailClick = {this.updateMailFoot} />
         </Fragment>
     }

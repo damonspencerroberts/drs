@@ -1,19 +1,17 @@
 import React, {Fragment} from "react";
-import {HeaderDiv, H1Style} from "../../styled-components/pages/header/headerst";
-import { IntroDiv, IntroP } from "../../styled-components/pages/home-page/head-page";
 import ProPic from "./profile-pic";
 import Bio from "./home-bio";
 
 
 const HomeContent = (props) => 
     <Fragment>
-            <HeaderDiv>
-                <H1Style>{props.title}</H1Style>
-            </HeaderDiv>
+            <div className = "header-div">
+                <h1 className = "h1-style">{props.title}</h1>
+            </div>
             <ProPic />
-            <IntroDiv>
-                <IntroP>{props.intro}</IntroP>
-            </IntroDiv>
+            <div className = "intro-div">
+                <p className = "intro-p">{props.intro}</p>
+            </div>
             <Bio />
     </Fragment>
 

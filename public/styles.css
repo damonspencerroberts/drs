@@ -281,8 +281,276 @@ Social Buttons ************************************************/
   
 
 
+/****************************Updates*************************/
 
+.prom-div {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.jmu-a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+.jmu-a:hover {
+    text-decoration: none;
+    color: #3de014;
+}
+
+.div-cards {
+    padding: 10%;
+}
+
+.card-style {
+    padding: 6%;
+    text-align: center;
+}
+
+.bio-div {
+    padding: 10% 10%;
+    text-align: left;
+    line-height: 3rem;
+    color: #3a3a3a;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
+    border-radius: 15px;
+    height: 400px;
+    overflow: auto;
+}
+.bio-div::-webkit-scrollbar {
+    width: 13px;
+}
+
+.bio-div::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5); 
+    height: 30px;
+}
+
+
+.bio-p {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 500 !important;
+}
+
+@media (max-width: 768px) {
+    .bio-p {
+       font-size: 0.75rem !important;
+  } 
+}
     
+
+.header-div {
+    text-align: center;
+    padding: 10% 10% 5% 10%;
+    color: #3a3a3a !important;
+}
+
+.h1-style {
+    font-size: 6rem !important;
+    letter-spacing: 2px;
+    font-weight: 550 !important;
+    font-family: 'Karla', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .h1-style {
+        font-size: 3rem !important;
+    }
+}
+
+
+.intro-div {
+    text-align: center;
+    padding: 5% 15%;
+    line-height: 3rem;
+    color:#3a3a3a;
+}
+
+@media (max-width: 768px) {
+    .intro-div {
+       padding: 5% 0; 
+    }
+}
+
+
+.intro-p {
+    font-size: 1.2rem !important;
+    letter-spacing: 1px;
+    font-weight: 550 !important;
+}
+
+@media (max-width: 768px) {
+    .intro-p {
+        font-size: 0.75rem !important;
+    }
+}
+
+.h3-educ {
+    font-size: 2.2rem;
+    color: #3a3a3a;
+}
+
+@media (max-width: 768px) {
+    .h3-educ {
+       font-size: 1.2rem; 
+    }
+}
+
+
+.email-btn {
+    background:linear-gradient(to bottom, #5bc976 5%, #50da3b 100%);
+    background-color:#5bc976;
+    border-radius:15px;
+    display:inline-block;
+    cursor:pointer;
+    color: #3a3a3a;
+    font-size:17px;
+    padding: 8px 22px;
+    text-decoration:none;
+    margin-left: 2%;
+}
+
+.email-btn:hover {
+background:linear-gradient(to bottom, #50da3b 5%, #5bc976 100%);
+background-color:#50da3b;
+color: #3a3a3a;
+}
+
+.email-btn:focus {
+    outline:none;
+    position:relative;
+    top:1px;
+}
+
+.ct-div {
+    margin-top: 5%;
+    padding: 10% 10% 8% 5%;
+    text-align: left;
+    color: #3a3a3a;
+    border-radius: 15px;
+    border: 2px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+.ct-p {
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 2% 2% 4% 0%;
+    overflow: auto;
+}
+
+.ct-p::-webkit-scrollbar {
+    width: 3px !important;
+}
+
+.ct-p::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5); 
+    height: 10px;
+}
+
+@media (max-width: 768px) {
+    .ct-p {
+       font-size: 0.6rem; 
+    }
+  }
+    
+.email-prompt-div {
+    margin-top: 2%;
+    padding: 5% 5% 5% 2%;
+    text-align: left;
+    color: #3a3a3a;
+    border-radius: 15px;
+    border: 2px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.email-send {
+    background:linear-gradient(to bottom, #5bc976 5%, #50da3b 100%);
+    background-color:#5bc976;
+    border-radius:15px;
+    display:inline-block;
+    cursor:pointer;
+    color: #3a3a3a;
+    font-size:17px;
+    padding: 8px 22px;
+    text-decoration:none;
+    float: right;
+    margin-right: 2%;
+}
+.email-send:hover {
+    background:linear-gradient(to bottom, #50da3b 5%, #5bc976 100%);
+    background-color:#50da3b;
+    color: #3a3a3a;
+}
+
+.email-send:focus {
+    outline:none;
+    position:relative;
+    top:1px;
+}
+
+.bio-btn-div {
+    padding: 3%;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .bio-btn-div {
+       padding: 6%; 
+    }
+}
+
+.ed-div {
+    padding: 5% 10% 8% 10%;
+    text-align: center;
+    color: #3a3a3a !important;
+}
+
+.ed-table {
+    margin: 0 auto;
+}
+
+.span-major {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .span-major {
+        font-size: 0.75rem !important;
+    }
+}
+
+.proj-title {
+    font-weight: 800 !important;
+    font-size: 1.3rem;
+}
+
+.footer {
+    margin-top: 0;
+    padding: 3% 3% 1% 3%;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .footer {
+       padding-top: 6%; 
+    }
+}
+
+.crfoot {
+    padding: 1%;
+    font-size: 0.6rem;
+}
+
+
+
+
     
     
 

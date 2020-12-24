@@ -1,6 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, {Component, Fragment} from "react";
-import { EmailBtn } from "../../styled-components/pages/contact/email-btn";
-import { BioBtnDiv } from "../../styled-components/pages/home-page/head-page";
 import ProjectContent from "./proj-contents";
 export default class project extends Component {
     constructor() {
@@ -18,9 +17,9 @@ export default class project extends Component {
 
     render() {
         return <Fragment>
-            <BioBtnDiv>
-                <EmailBtn onClick = {this.updateProject} style = {{fontSize: "1.4rem", marginLeft: "0"}}>Projects</EmailBtn>
-            </BioBtnDiv>
+            <div className = "bio-btn-div">
+                <a className = "email-btn" onClick = {this.updateProject} style = {{fontSize: "1.4rem", marginLeft: "0"}}>Projects</a>
+            </div>
             {this.state.showProj === true ? <ProjectContent /> : null}
         </Fragment>
     }

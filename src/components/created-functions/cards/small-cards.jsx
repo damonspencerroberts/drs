@@ -2,15 +2,14 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import {Card} from "react-bootstrap";
-import DivCards from "../../styled-components/pages/cards/cardsdiv";
 
 const SmCard = (props) => 
-<DivCards>
+<div className = "div-cards">
   <a href = {props.url} target = "_blank">
     <Card className = "cert-cards">
       <Card.Img className = "cert-card-img-top" variant="top" src= {props.img} alt = "cert-img"/>
     </Card>
   </a>
-</DivCards>
+</div>
 
 export default SmCard;

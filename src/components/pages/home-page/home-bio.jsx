@@ -1,7 +1,7 @@
+/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component, Fragment } from "react";
-import { EmailBtn } from "../../styled-components/pages/contact/email-btn";
 import BioContent from "./bio-content";
-import { BioBtnDiv } from "../../styled-components/pages/home-page/head-page";
 
 export default class Bio extends Component {
     constructor() {
@@ -18,13 +18,13 @@ export default class Bio extends Component {
 
     render() {
         return <Fragment>
-            <BioBtnDiv>
-                <EmailBtn onClick = {this.updateBio} style = {{fontSize: "1.4rem", marginLeft: "0"}}>Biography</EmailBtn>
-            </BioBtnDiv>
+            <div className = "bio-btn-div">
+                <a className = "email-btn" onClick = {this.updateBio} style = {{fontSize: "1.4rem", marginLeft: "0"}}>Biography</a>
+            </div>
             {this.state.showBio === true ? <BioContent /> : null}
-            <BioBtnDiv>
-                <EmailBtn href = "https://damonroberts-portfolio.herokuapp.com/" style = {{fontSize: "1.4rem", marginLeft: "0"}} target = "_blank">Portfolio</EmailBtn>
-            </BioBtnDiv>
+            <div className = "bio-btn-div">
+                <a className = "email-btn" href = "https://damonroberts-portfolio.herokuapp.com/" style = {{fontSize: "1.4rem", marginLeft: "0"}} target = "_blank">Portfolio</a>
+            </div>
         </Fragment>
     }
 }

@@ -1,32 +1,30 @@
 import React from "react";
-import { EdDiv, EdTable } from "../../styled-components/pages/educ/educ-table";    
-import {H3Educ, SpanMajor, JmuA} from "../../styled-components/pages/educ/educ-jmu";
-
+/*1-3*/
 
 const FinEduTable = () => 
-    <EdDiv>
-        <EdTable>
+    <div className = "ed-div">
+        <table className = "ed-table">
             <thead>
                 <tr>
                     <td>
-                        <H3Educ><JmuA href = "https://www.jmu.edu/">James Madison University</JmuA></H3Educ>
+                        <h3 className = "h3-educ"><a className = "jmu-a" href = "https://www.jmu.edu/">James Madison University</a></h3>
                     </td>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>
-                        <SpanMajor>Major: Economics</SpanMajor>
+                        <span className ="span-major">Major: Economics</span>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <SpanMajor>Concentration: Quantitative Economics</SpanMajor>
+                        <span className = "span-major">Concentration: Quantitative Economics</span>
                     </td>
                 </tr>
             </tbody>
-        </EdTable>
-    </EdDiv>
+        </table>
+    </div>
 
 export default FinEduTable;
 

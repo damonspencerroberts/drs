@@ -1,6 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, {Component} from "react";
-import {EmailPromptDiv} from "../../styled-components/pages/contact/contact-dt";
-import {EmailBtn, EmailSend} from "../../styled-components/pages/contact/email-btn";
 
 export default class EmailTest extends Component {
   constructor(props) {
@@ -48,7 +47,7 @@ export default class EmailTest extends Component {
   render() {
 	return (
       <form className="test-mailing" autoComplete = "off">
-        <EmailPromptDiv>
+        <div className = "email-prompt-div">
             {this.state.success === true ? <p style = {{color: "red"}}>Email Sent!</p> : null}
             <input 
                 className = "name-text"
@@ -79,12 +78,10 @@ export default class EmailTest extends Component {
                 required
                 value={this.state.feedback}
             />
-            <EmailBtn onClick = {this.props.backClick}>Back</EmailBtn>
-            <EmailSend type="button" value="Send" className="btn btn--submit" onClick={this.handleSubmit} />
-    	</EmailPromptDiv>
+            <a className = "email-btn" onClick = {this.props.backClick}>Back</a>
+            <input className = "email-send" type="button" value="Send" className="btn btn--submit" onClick={this.handleSubmit} />
+    	</div>
   	</form>
 	)
   }
-
-  
 }
