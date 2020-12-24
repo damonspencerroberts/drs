@@ -22,8 +22,9 @@ export default class ProjContent extends Component {
     render() {
         return <Fragment>
             <div className = "bio-div">
+                <h1>Projects</h1>
                 {projects.map(e => <EachProj key = {e.key} title = {e.title} content = {e.content} />)}
-                <p className = "bio-p" style = {{padding: "3%"}}>
+                <p className = "bio-p">
                     Each of my projects are present on <a className="jmu-a" href = "https://github.com/damonspencerroberts" style ={{textDecoration: "underline", cursor: "pointer"}} target="_blank">GitHub</a> and my <a className="jmu-a" href = "https://damonroberts-portfolio.herokuapp.com/" style ={{textDecoration: "underline", cursor: "pointer"}} target="_blank">portfolio website</a> for you to view. I am very open to constructive criticism and thrive at learning from my mistakes so please do not hesitate to <a className="jmu-a" onClick = {this.updateEmail} style ={{textDecoration: "underline", cursor: "pointer"}}>email me</a> with suggestions.
                 </p>
             </div>

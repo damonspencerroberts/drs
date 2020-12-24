@@ -79,7 +79,7 @@ export default class EmailTest extends Component {
                 value={this.state.feedback}
             />
             <a className = "email-btn" onClick = {this.props.backClick}>Back</a>
-            <input className = "email-send" type="button" value="Send" className="btn btn--submit" onClick={this.handleSubmit} />
+            <input className = "email-send btn btn--submit" type="button" value="Send" onClick={this.handleSubmit} />
     	</div>
   	</form>
 	)

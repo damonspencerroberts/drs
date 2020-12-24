@@ -1,30 +1,31 @@
 a:hover {
     text-decoration: none !important;
+    opacity: 0.8;
 }
 
 .fIcons {
     padding: 15px;
     transition: transform .35s;
-    color: #3a3a3a;
+    color: #34626c;
 }
 .fenv:hover {
     color: red;
-    transform: scale(1.6);
+    opacity: 0.8;
 }
 
 .fa-twitter:hover {
     color: rgb(47, 170, 241);
-    transform: scale(1.6);
+    opacity: 0.8;
 }
 
 .fa-linkedin-in:hover {
     color: rgb(49, 57, 255);
-    transform: scale(1.6);
+    opacity: 0.8;
 }
 
 .figt:hover {
     color: #17f702;
-    transform: scale(1.6);
+    opacity: 0.8;
 }
 
 
@@ -34,44 +35,33 @@ a:hover {
 }
 
 .nav-link {
-    color: #3a3a3a !important;
+    color: #34626c !important;
     font-weight: 600 !important;
     font-family: 'Karla', sans-serif !important;
-    border: 2px solid #3a3a3a;
-    margin: 2px;
+    margin: 5px;
     padding: 15px !important;
-    border-radius: 15px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
 }
 
 .active-class {
-    background-color: #3a3a3a;
-    color: white !important;
+    background-color: #c6b497;
 }
 
 .nav-link:hover {
-    color: #3de014 !important;
+    opacity: 0.8;
+    background-color: #c6b497;
 }
 
-.dropdown-menu {
-    background-color: #d0ffde !important;
-    border-radius: 15px !important;
-    border: 2px !important;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-
-}
 
 .dropdown-item {
-    background-color: #d0ffde !important;
-    border-radius: 15px !important;
-    color: #3a3a3a !important;
+    color: #34626c !important;
     font-weight: 500 !important;
     font-size: 1.2rem;
     font-family: 'Karla', sans-serif !important;
 }
 
 .dropdown-item:hover {
-    color: #3de014 !important;
+    opacity: 0.8;
+    background-color: #c6b497 !important;
 }
 
 
@@ -92,23 +82,6 @@ a:hover {
     height: 105px;
 }
 
-.home-cards {
-    border-radius: 15px !important;
-    width: 250px !important;
-    background-color: rgb(255, 249, 249) !important;
-    border: 1px !important;
-    box-sizing: border-box;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-    transition: transform .35s;
-    text-decoration: none !important;
-    margin: 0 auto;
-}
-
-.home-cards:hover {
-    transform: scale(1.1);
-    z-index: 1;
-    background-color: #d0ffde !important;
-}
 
 @media (max-width: 768px) {
     .pro-pic-div{
@@ -121,6 +94,7 @@ a:hover {
 
     .pro-pic:hover {
         transform: none !important;
+        opacity: 0.8;
     }
 
     .home-cards {
@@ -143,17 +117,17 @@ a:hover {
 
 .card-title {
     font-weight: 600 !important;
-    color: #3a3a3a!important;
+    color: #34626c!important;
 }
 
 .home-cards:hover .card-title {
-    color: #3a3a3a !important;
+    color: #34626c !important;
+    opacity: 0.8;
 }
 
 .cert-cards {
     border-top-left-radius: 15px !important;
     border-top-right-radius: 15px !important;
-    border-radius: 15px !important;
     border: 1px !important;
     box-sizing: border-box;
     width: 200px !important;
@@ -165,12 +139,12 @@ a:hover {
 .cert-cards:hover {
     transform: scale(1.1);
     z-index: 1;
+    opacity: 0.8;
 }
 
 .cert-card-img-top {
     border-top-left-radius: 15px !important;
     border-top-right-radius: 15px !important;
-    border-radius: 15px;
     height: 150px;
     width: 200px;
     object-fit: cover;
@@ -179,7 +153,6 @@ a:hover {
 .name-text {
     width: 250px;
     display: block;
-    border-radius: 15px;
     border: 1px solid #d0ffde;
     padding-left: 10px;
     margin: 2% auto;
@@ -194,7 +167,6 @@ a:hover {
     width: 250px;
     height: 100px;
     display: block;
-    border-radius: 15px;
     border: 1px solid #d0ffde;
     padding-left: 10px;
     margin: 2% auto;
@@ -214,7 +186,6 @@ a:hover {
 
 .pro-pic {
     width: 200px;
-    border-radius: 100%;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
     transition: transform 1.5s;
     border: 1px solid #7fffa549;
@@ -222,6 +193,7 @@ a:hover {
 
 .pro-pic:hover {
     transform: scale(1.4);
+    opacity: 0.8;
 }
 
 .h3Educ {
@@ -243,13 +215,15 @@ Social Buttons ************************************************/
     position: fixed;
     left: 5px;
   }
+
   .share-btn {
-    color: #3a3a3a;
+    color: #34626c;
     padding: 3px;
   }
   .share-btn:hover {
-      color: #17f702;
+      opacity: 0.8;
       cursor: pointer;
+      opacity: 0.8;
   }
 
   .share {
@@ -273,7 +247,7 @@ Social Buttons ************************************************/
   }
   
   .social-share-btn__share-button:hover:not(:active) {
-    opacity: 0.75;
+    opacity: 0.8;
   }
   .social-share-btn__share-button:focus {outline: none;}
 
@@ -288,15 +262,15 @@ Social Buttons ************************************************/
     height: 300px;
     margin: 0 auto;
 }
-
+  
 .jmu-a {
     text-decoration: none;
-    color: #3a3a3a;
+    color: #34626c;
 }
 
 .jmu-a:hover {
     text-decoration: none;
-    color: #3de014;
+    opacity: 0.8;
 }
 
 .div-cards {
@@ -309,30 +283,18 @@ Social Buttons ************************************************/
 }
 
 .bio-div {
-    padding: 10% 10%;
+    padding: 10%;
     text-align: left;
     line-height: 3rem;
-    color: #3a3a3a;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
-    border-radius: 15px;
-    height: 400px;
-    overflow: auto;
-}
-.bio-div::-webkit-scrollbar {
-    width: 13px;
-}
-
-.bio-div::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5); 
-    height: 30px;
+    color: #34626c;
 }
 
 
 .bio-p {
-    font-size: 1rem;
+    padding: 20px 0;
+    font-size: 1.25rem;
     letter-spacing: 1px;
-    font-weight: 500 !important;
+    font-weight: 300 !important;
 }
 
 @media (max-width: 768px) {
@@ -345,14 +307,13 @@ Social Buttons ************************************************/
 .header-div {
     text-align: center;
     padding: 10% 10% 5% 10%;
-    color: #3a3a3a !important;
+    color: #34626c !important;
 }
 
 .h1-style {
     font-size: 6rem !important;
     letter-spacing: 2px;
     font-weight: 550 !important;
-    font-family: 'Karla', sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -366,7 +327,7 @@ Social Buttons ************************************************/
     text-align: center;
     padding: 5% 15%;
     line-height: 3rem;
-    color:#3a3a3a;
+    color:#34626c;
 }
 
 @media (max-width: 768px) {
@@ -377,7 +338,7 @@ Social Buttons ************************************************/
 
 
 .intro-p {
-    font-size: 1.2rem !important;
+    font-size: 1.5rem !important;
     letter-spacing: 1px;
     font-weight: 550 !important;
 }
@@ -390,7 +351,7 @@ Social Buttons ************************************************/
 
 .h3-educ {
     font-size: 2.2rem;
-    color: #3a3a3a;
+    color: #34626c;
 }
 
 @media (max-width: 768px) {
@@ -401,12 +362,10 @@ Social Buttons ************************************************/
 
 
 .email-btn {
-    background:linear-gradient(to bottom, #5bc976 5%, #50da3b 100%);
-    background-color:#5bc976;
-    border-radius:15px;
+    background-color:#c6b497;
     display:inline-block;
     cursor:pointer;
-    color: #3a3a3a;
+    color: #34626c;
     font-size:17px;
     padding: 8px 22px;
     text-decoration:none;
@@ -414,9 +373,7 @@ Social Buttons ************************************************/
 }
 
 .email-btn:hover {
-background:linear-gradient(to bottom, #50da3b 5%, #5bc976 100%);
-background-color:#50da3b;
-color: #3a3a3a;
+    opacity: 0.8;
 }
 
 .email-btn:focus {
@@ -429,8 +386,7 @@ color: #3a3a3a;
     margin-top: 5%;
     padding: 10% 10% 8% 5%;
     text-align: left;
-    color: #3a3a3a;
-    border-radius: 15px;
+    color: #34626c;
     border: 2px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
 }
@@ -448,7 +404,6 @@ color: #3a3a3a;
 }
 
 .ct-p::-webkit-scrollbar-thumb {
-    border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5); 
     height: 10px;
 }
@@ -463,30 +418,27 @@ color: #3a3a3a;
     margin-top: 2%;
     padding: 5% 5% 5% 2%;
     text-align: left;
-    color: #3a3a3a;
-    border-radius: 15px;
+    color: #34626c;
     border: 2px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
     cursor: pointer;
 }
 
 .email-send {
-    background:linear-gradient(to bottom, #5bc976 5%, #50da3b 100%);
-    background-color:#5bc976;
-    border-radius:15px;
+    background-color:#c6b497 !important;
     display:inline-block;
     cursor:pointer;
-    color: #3a3a3a;
+    color: #34626c;
     font-size:17px;
     padding: 8px 22px;
-    text-decoration:none;
+    text-decoration: none;
     float: right;
     margin-right: 2%;
 }
+
 .email-send:hover {
-    background:linear-gradient(to bottom, #50da3b 5%, #5bc976 100%);
-    background-color:#50da3b;
-    color: #3a3a3a;
+    color: #34626c;
+    opacity: 0.8;
 }
 
 .email-send:focus {
@@ -509,7 +461,7 @@ color: #3a3a3a;
 .ed-div {
     padding: 5% 10% 8% 10%;
     text-align: center;
-    color: #3a3a3a !important;
+    color: #34626c !important;
 }
 
 .ed-table {
@@ -527,8 +479,9 @@ color: #3a3a3a;
 }
 
 .proj-title {
-    font-weight: 800 !important;
+    font-weight: 900 !important;
     font-size: 1.3rem;
+    text-decoration: underline;
 }
 
 .footer {
@@ -548,6 +501,9 @@ color: #3a3a3a;
     font-size: 0.6rem;
 }
 
+.projects {
+    padding: 20px 0;
+}
 
 
 

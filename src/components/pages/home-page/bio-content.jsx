@@ -2,6 +2,7 @@ import React from "react";
 
 const BioContent = () => 
     <div className = "bio-div">
+        <h1>Biography</h1>
         <p className = "bio-p">
             Hi, my name is Damon, and I am originally from Australia. I grew up all over the world living in Australia, France, United Kingdom, Singapore, Japan and more recently the United States. <br/><br/>
             I grew up playing tennis, and that was the main reason for moving to the US. I was recruited to play tennis for James Madison University and had such a great experience.<br/><br/>
