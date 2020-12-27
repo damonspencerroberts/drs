@@ -7,6 +7,7 @@ a:hover {
     padding: 15px;
     transition: transform .35s;
     color: #34626c;
+    cursor: pointer;
 }
 .fenv:hover {
     color: red;
@@ -76,8 +77,6 @@ a:hover {
 
 /***************************** Card ****************************/
 .home-card-img-top {
-    border-top-left-radius: 15px !important;
-    border-top-right-radius: 15px !important;
     width: 200px;
     height: 105px;
 }
@@ -126,8 +125,6 @@ a:hover {
 }
 
 .cert-cards {
-    border-top-left-radius: 15px !important;
-    border-top-right-radius: 15px !important;
     border: 1px !important;
     box-sizing: border-box;
     width: 200px !important;
@@ -143,8 +140,6 @@ a:hover {
 }
 
 .cert-card-img-top {
-    border-top-left-radius: 15px !important;
-    border-top-right-radius: 15px !important;
     height: 150px;
     width: 200px;
     object-fit: cover;
@@ -427,13 +422,14 @@ Social Buttons ************************************************/
 .email-send {
     background-color:#c6b497 !important;
     display:inline-block;
-    cursor:pointer;
-    color: #34626c;
-    font-size:17px;
-    padding: 8px 22px;
+    cursor: pointer;
+    color: #34626c !important;
+    font-size: 17px;
+    padding: 8px 22px !important;
     text-decoration: none;
     float: right;
     margin-right: 2%;
+    border-radius: 0 !important;
 }
 
 .email-send:hover {
